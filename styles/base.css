@@ -17,7 +17,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav li {
+    flex: 1;
 }
 
 nav a {
