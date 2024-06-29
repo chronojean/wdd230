@@ -1,15 +1,14 @@
 /* LARGER.CSS */
 @media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+    }
+
     main {
         grid-template-columns: 2fr 1fr;
     }
 
-    main h1 {
-        grid-column-start: 1;
-        grid-column-end: 3;
+    .card {
+        padding: 2rem;
     }
-}
-
-* {
-    border: solid 1px blue
 }
