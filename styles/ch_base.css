@@ -1,0 +1,106 @@
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+/* Colores base */
+:root {
+    --color-primary: #037ef3;
+    --color-secondary: #f85a40;
+    --color-success: #00c16e;
+    --color-info: #0cb9c1;
+    --color-warning: #ffc845;
+    --color-danger: #f48924;
+    --color-dark: #52565e;
+    --color-muted: #caccd1;
+    --color-light: #f3f4f7;
+    --color-white: #ffffff;
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-primary);
+}
+
+/* Enlaces */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.btn-success {
+    background-color: var(--color-success);
+    color: var(--color-white);
+}
+
+.btn-info {
+    background-color: var(--color-info);
+    color: var(--color-white);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+    color: var(--color-white);
+}
+
+.btn-danger {
+    background-color: var(--color-danger);
+    color: var(--color-white);
+}
+
+/* Secciones */
+.section-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.section-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.section-light {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+.section-muted {
+    background-color: var(--color-muted);
+    color: var(--color-dark);
+}
+
+/* Estilo de ejemplos de tipografía */
+.typography-primary {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.typography-secondary {
+    font-family: 'Georgia', serif;
+}
