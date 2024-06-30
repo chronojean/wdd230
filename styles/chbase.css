@@ -3,12 +3,13 @@
 
 /* Colores base */
 :root {
-    --color-primary: #037ef3;
+    --color-primary: #0072dd;
     --color-secondary: #f85a40;
     --color-success: #00c16e;
     --color-info: #0cb9c1;
     --color-warning: #ffc845;
     --color-danger: #f48924;
+    --color-text: #52565e;
     --color-dark: #52565e;
     --color-muted: #caccd1;
     --color-light: #f3f4f7;
