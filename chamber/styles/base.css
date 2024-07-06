@@ -63,7 +63,7 @@ nav .nav-links a {
 }
 
 .auth-buttons button {
-    background-color: var(--color-secondary);
+    background-color: var(--color-success);
     border: none;
     color: var(--color-white);
     padding: 10px 20px;
