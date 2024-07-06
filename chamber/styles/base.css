@@ -1,7 +1,21 @@
+:root {
+    --color-primary: #006cd1;
+    --color-secondary: #f85a40;
+    --color-success: #00c16e;
+    --color-info: #0cb9c1;
+    --color-warning: #ffc845;
+    --color-danger: #f48924;
+    --color-text: #52565e;
+    --color-dark: #52565e;
+    --color-muted: #caccd1;
+    --color-light: #f3f4f7;
+    --color-white: #ffffff;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #fff;
-    color: #52565e;
+    background-color: var(--color-white);
+    color: var(--color-text);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,9 +25,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #037ef3;
+    background-color: var(--color-primary);
     padding: 10px;
-    color: #f3f4f7;
+    color: var(--color-white);
 }
 
 .logo img {
@@ -43,15 +57,15 @@ nav .nav-links li {
 }
 
 nav .nav-links a {
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
     font-weight: bold;
 }
 
 .auth-buttons button {
-    background-color: #f85a40;
+    background-color: var(--color-secondary);
     border: none;
-    color: white;
+    color: var(--color-white);
     padding: 10px 20px;
     cursor: pointer;
     margin-left: 10px;
@@ -131,8 +145,8 @@ section {
 }
 
 footer {
-    background-color: #037ef3;
-    color: #f3f4f7;
+    background-color: var(--color-primary);
+    color: var(--color-light);
     text-align: center;
     padding: 10px;
 }
@@ -147,7 +161,7 @@ footer {
 .business_card {
     flex: 0 0 calc(100% / 4);
     text-align: center;
-    margin: 0 0 0 0;
+    margin-right: 20px;
     height: 100%;
 }
 
@@ -173,12 +187,14 @@ footer {
 .product_card {
     flex: 0 0 calc(100% / 2.5);
     /* Ajuste para ver 2.5 cards */
-    margin: 1rem 1rem 0 1rem;
-    background-color: #f3f3f3;
-    padding: 1rem;
+    margin: 10px;
+    background-color: var(--color-light);
+    padding: 20px;
     border-radius: 10px;
     scroll-snap-align: start;
-    height: 90%;
+    height: 75%;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
     box-sizing: border-box;
 }
 
